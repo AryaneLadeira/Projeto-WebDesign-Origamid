@@ -326,3 +326,11 @@ footer h3::after{
 .footer-redes ul li a:hover{
     border-color: #fff;
 }
+
+/* Copy */
+
+.copy {
+    width: 100%;
+    background: #fec63e;
+    padding: 20px 0;
+}
