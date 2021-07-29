@@ -93,3 +93,7 @@
 .contato-dados ul li a:hover{
     border-color: #000;
 }
+
+.contato-mapa {
+    margin-bottom: 60px;
+}
