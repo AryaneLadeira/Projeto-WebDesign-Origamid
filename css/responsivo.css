@@ -21,7 +21,29 @@
         width: 26px;
         height: 26px;
     }
+
+                /* Produtos */
+    .produto-item h2 {
+        top: -150px;
+    }
+
+    .produto-icone {
+        padding: 41px 0;
+    }
+
+    .produto-info p{
+        font-size: 14px;
+        line-height: 20px;
+        padding: 20px 30px;
+        height: 122px;
+    }
+              
+    .produto-info ul li {
+        width: 181px;
+    }
 }
+
+
 
 /* Estilos para smartphones */
 @media only screen and (max-width: 787px){
@@ -100,4 +122,6 @@
         font-size: 14px;
         line-height: 25px;
     }
+
+                /* Produtos */
 }
