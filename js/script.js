@@ -12,4 +12,6 @@ if(window.SimpleSlide){
         pauseOnHover: true, 
       });
 }
-
+if(window.SimpleAnime){
+    new SimpleAnime();
+}
