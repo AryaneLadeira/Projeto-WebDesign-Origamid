@@ -454,3 +454,10 @@ footer h3::after{
     transition: transform .8s, opacity .8s;
 }
 
+/* Não aparece */
+
+.escondido {
+    visibility: hidden;
+    height: 0px;
+    position: absolute;
+}

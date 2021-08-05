@@ -131,20 +131,26 @@
             <div class="container">
                 <h2 class="subtitulo">Orçamento</h2>
 
-                <form action="" id="form-orcamento" class="form grid-8">
+                <form action="enviar.php" method="POST" id="form-orcamento" class="form grid-8 formphp">
                     <label for="nome">Nome</label>
-                    <input type="text" name="nome" id="nome">
+                    <input type="text" name="nome" id="nome" required>
 
                     <label for="email">E-mail</label>
-                    <input type="text" name="email" id="email">
+                    <input type="text" name="email" id="email" required>
 
                     <label for="telefone">Telefone</label>
                     <input type="text" name="telefone" id="telefone">
 
-                    <label for="espec">Especificações</label>
-                    <textarea name="espec" id="espec"></textarea>
+                    <label class="escondido" for="">Se você não é um robô, deixe em branco</label>
+                    <input type="text" class="escondido" name="leaveblank">
 
-                    <button type="submit" class="btn">Enviar</button>
+                    <label class="escondido" for="">Se você não é um robô, não mude este campo</label>
+                    <input type="text" class="escondido" name="dontchange" value="http://">
+
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" required></textarea>
+
+                    <button id="enviar" name="enviar" type="submit" class="btn">Enviar</button>
                 </form>
 
             <!-- Dados -->
