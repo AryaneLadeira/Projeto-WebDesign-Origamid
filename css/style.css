@@ -461,3 +461,13 @@ footer h3::after{
     height: 0px;
     position: absolute;
 }
+
+/* Resposta formulario */
+
+#form-sucesso {
+    color: #31aa39;
+}
+
+#form-erro {
+    color: #f64540;
+}
